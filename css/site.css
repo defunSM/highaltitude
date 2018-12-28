@@ -1,0 +1,201 @@
+body {
+
+
+    max-width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+.body-container {
+
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 72px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.125em;
+    color: #333;
+    line-height: 1.5em;
+    background: #272B30;
+
+
+}
+
+.webapp-container {
+
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 72px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.125em;
+    color: #333;
+    line-height: 1.5em;
+    background: #272B30;
+}
+
+div {
+    color:  #CCDAEB;
+    font-family: Sans;
+    font-weight: bold;
+    antialiased: active;
+
+}
+
+input {
+    Background-color: grey;
+    color: white;
+    border-radius: 0.5em;
+    font-size: 20px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+textbox {
+
+    padding: 23px 120px 0px 100px;
+    margin: 0 auto;
+    border-radius: 0.3em 0.3em 0em 0em;
+    color: #CCDAEB;
+
+    background: #32383e;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+h1, h2 {
+    margin: 0 0 15px 0;
+    color: #a67d4a;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+div1 {
+    padding: 23px 120px;
+    margin: 0 auto;
+    border-radius: 0.3em 0.3em 0em 0em;
+    color: #CCDAEB;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background: #32383e;
+    border: 1px solid rgba(0,0,0,0.6);
+    z-index: 3;
+}
+
+div1:hover {
+    color: #268bd2;
+    background: #F5F5F5;
+}
+
+infodiv {
+
+}
+
+h1 {
+  font-size: 2.5em
+}
+
+h2:hover {
+
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+    font-size: 1.5em;
+    color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+    color: #272B30;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+}
+
+div.planet {
+    height: 30px;
+    width: 30px;
+    border-radius: 1em;
+}
+
+nav.arrow {
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    border: solid;
+    border-color: black;
+    border-width: 2px 2px 2px 0px;
+}
+
+arrow {
+    font-size: 12px;
+    margin: 15px 0px 0px 34px;
+
+}
+
+arrow:hover {
+    color: #268bd2;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    color: white;
+    background-color: #222222;
+    border-color: #222222;
+    border-with: 0px;
+    border-style: solid;
+
+}
+
+button:hover {
+    color: #268bd2;
+}
+
+
+appbackground {
+    background-color: #222222;
+    width: 50%;
+    height: 300px;
+    padding: 30px;
+    border-radius: 0.2em;
+    word-wrap: break-word;
+
+
+}
+
+appbackground:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 150px;
+    -webkit-transform: rotate(50deg);
+}
+
+canvas {
+    width: auto;
+}
