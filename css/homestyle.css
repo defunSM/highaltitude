@@ -1113,3 +1113,7 @@ body::-webkit-scrollbar-thumb {
 .scrolling-wrapper {
   -webkit-overflow-scrolling: touch;
 }
+
+.dull {
+    color: #FF4136;
+}
