@@ -1,19 +1,25 @@
 .trainer {
 
 
-    position: relative;
-    margin-left: 44em;
-    margin-top: 16em;
-    padding: 30px;
+    position: absolute;
+    margin-left: 18vw;
+    margin-top: 40vh;
+    padding: 20px;
+    align: center
+
 }
 
 .trainee {
 
-    padding: 30px;
-    margin-top: 16em;
-    margin-left: 10em;
+    padding: 20px;
+    margin-top: 40vh;
+    margin-left: 70vw;
     position: absolute;
     font-style: bold;
+    align: center;
+
+
+
 
 }
 
@@ -25,7 +31,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   font-family: Helvetica;
 }
 
