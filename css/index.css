@@ -1,0 +1,39 @@
+.trainer {
+
+
+    position: relative;
+    margin-left: 44em;
+    margin-top: 16em;
+    padding: 30px;
+}
+
+.trainee {
+
+    padding: 30px;
+    margin-top: 16em;
+    margin-left: 10em;
+    position: absolute;
+    font-style: bold;
+
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+button:hover {
+    background-color: #5fb962;
+}
+
+
+.tcontainer {
+    word-wrap: true;
+}
