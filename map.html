@@ -25,6 +25,9 @@
       // prompted by your browser. If you see the error "The Geolocation service
       // failed.", it means you probably did not give permission for the browser to
       // locate you.
+
+// GOOGLE Map
+
       var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -42,7 +45,7 @@
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Trainer Found.\nNa');
+            infoWindow.setContent('Trainer Found.');
             infoWindow.open(map);
               map.setCenter(pos);
           }, function() {
@@ -61,6 +64,7 @@
                               'Error: Your browser doesn\'t support geolocation.');
         infoWindow.open(map);
       }
+
 
 
     </script>
