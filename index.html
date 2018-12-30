@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="google-signin-client_id" content="555748849634-48lojh74n8kqs6s869f6vg5i76a4tr1g.apps.googleusercontent.com">
 	<title>Higher Altitude</title>
 	<!-- Styles -->
 	<link rel="stylesheet" href="css/homestyle.css" />
@@ -15,12 +16,8 @@
 			.lightbox { display: none; }
 		}
 	</style>
-	<!-- jQuery -->
-        <script src="https://defunsm.github.io/js/jquery.min.js"></script>
-	<!-- Favicon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.xx.x/css/uikit.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.xx.x/js/uikit.min.js"></script>
-	<link rel="shortcut icon" href="images/favicon.png">
+
+
 </head>
 <body class="fade-in cmon body">
 
@@ -50,7 +47,8 @@
 		  <h2 class="section_title">Who Are We?</h2>
 
 			<h3 class="section_subtitle">Bringing top notch fitness trainers to you</h3>
-<p> Content to be placed here!</p>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
 
 
 
@@ -118,10 +116,33 @@
 	<!-- END FOOTER /////////////////////////////////////////////////////////////////////////// -->
 
 	<!-- Scripts -->
-	<script src="https://defunsm.github.io/js/parallax.js"></script>
+
 	<!-- <script src="https://defunsm.github.io/js/menu.js"></script> -->
-        <script src="https://defunsm.github.io/js/diffmenu.js"></script>
-	<script src="https://defunsm.github.io/js/featherlight.js" type="text/javascript" charset="utf-8"></script>
-	<script src="https://defunsm.github.io/js/scroll.js"></script>
+
+
+        <!-- google sign in -->
+
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+        <script>
+          function onSignIn(googleUser) {
+              var profile = googleUser.getBasicProfile();
+              console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+              console.log('Name: ' + profile.getName());
+              console.log('Image URL: ' + profile.getImageUrl());
+              console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+          }
+        </script>
+
+        <script>
+          function signOut() {
+              var auth2 = gapi.auth2.getAuthInstance();
+              auth2.signOut().then(function () {
+                  console.log('User signed out.');
+              });
+          }
+        </script>
+
+
 </body>
 </html>
