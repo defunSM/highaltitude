@@ -27,7 +27,7 @@ button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-
+  opacity: 0.9;
   text-align: center;
   text-decoration: none;
   display: inline-block;
