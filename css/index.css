@@ -43,3 +43,7 @@ button:hover {
 .tcontainer {
     word-wrap: true;
 }
+
+.white {
+    color:#FFF;
+}
